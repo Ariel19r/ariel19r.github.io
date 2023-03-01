@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&family=Shantell+Sans:wght@500&display=swap');
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h3 {
+  text-align: left;
+}
+
+
+/* Encabezado */
+header {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: #333;
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-right: 20px;
+  width: 60%;
+  float: right;
+}
+.Nombre {
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+/* css datos nombre, dni, etc*/
+#datos {
+  width: 30%;
+  float: left;
+  background-color: #0b915d;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+
+#foto {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+}
+
+/*menu de contenido del CV*/
+  /* Estilos generales */
+main {
+  width: 70%;
+  float: left;
+}
+
+.contenido {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .contenido {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+li {
+  list-style: none;
+  margin-right: 45px;
+}
+
+/* Estilos específicos para la lista de habilidades */
+#habilidades ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#habilidades li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #b8b8b8;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#habilidades li:hover {
+  background-color: #0b915d;
+  color: #fff;
+}
+
